@@ -9,7 +9,7 @@ model = pickle.load(open("model.pkl", "rb"))
 feature_columns = pickle.load(open("feature_columns.pkl", "rb"))
 
 # Gemini API
-genai.configure(api_key="AIzaSyBhWjrNKKDNmBprcdhepYW-gelGjsDaxGM")
+genai.configure(api_key="")
 
 st.title("AI Student Performance Advisor")
 
